@@ -19,7 +19,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "tsc --noEmit && npm run test"
+      "pre-push": "tsc --noEmit"
     }
   }
 }

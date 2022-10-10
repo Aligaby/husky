@@ -8,6 +8,6 @@ describe("Add 2 numbers", () => {
 
 describe("Substract 2 numbers", () => {
   test("check that 5 - 3 is equal to 2", () => {
-    expect(subtr(5, 3)).toBe(1);
+    expect(subtr(5, 3)).toBe(0);
   });
 });

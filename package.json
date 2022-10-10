@@ -17,5 +17,5 @@
     "ts-node": "^10.9.1",
     "husky": "^8.0.0"
   },
-  "pre-commit": "tsc --noEmit"
+  "pre-push": "tsc --noEmit"
 }

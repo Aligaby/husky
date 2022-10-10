@@ -16,5 +16,10 @@
     "ts-jest": "^29.0.3",
     "ts-node": "^10.9.1",
     "husky": "^8.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "echo \"[Husky] pre-push \""
+    }
   }
 }
